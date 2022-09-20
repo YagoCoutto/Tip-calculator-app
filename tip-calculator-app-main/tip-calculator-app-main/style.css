@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+:root{
+    /* ## Colors*/
+    /* ### Primary */
+    --cyan: hsl(172, 67%, 45%);
+    /* ### Neutral */
+    --darkC: hsl(183, 100%, 15%);
+    --Darkgrayishcyan: hsl(186, 14%, 43%);
+    --Grayishcyan: hsl(184, 14%, 56%);
+    --Lightgrayishcyan: hsl(185, 41%, 84%);
+    --Verylightgrayishcyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+
+    /* ### Body Copy */
+    --Size_inputs: 24px;
+}
+
+main{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--Lightgrayishcyan); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White);
+}
+.box{
+    width: 92%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: row;
+
+}
+.content_L{
+    width: 50%;
+    height: 100%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content_R{
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color:var(--darkC);
+}
+.Bill{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Select_Tip{
+    width: 90%;
+    height: 50%;
+
+}
+.Number_People{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.valores_inp{
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    color: var(--White);
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px;
+    border-radius: 5px;
+    font-size: var(--Size_inputs);
+    background-color: var(--darkC);
+
+}
+.Input_L{
+    width: 90%;
+    font-size: var(--Size_inputs);
+    border: none;
+    background-color: var(--Verylightgrayishcyan);
+}
